@@ -1,3 +1,4 @@
+# --- IDE 配置文件 (不需要提交) ---
 # IntelliJ IDEA
 .idea/
 *.iml
@@ -9,41 +10,55 @@ out/
 .classpath
 .project
 .settings/
+.apt_generated
+.factorypath
+.springBeans
+bin/
 
-# 编译输出
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- 编译输出 (不需要提交) ---
 target/
 build/
-bin/
 *.class
 
-# 日志文件
+# --- 日志和临时文件 ---
 *.log
-
-# 临时文件
 *.tmp
 *.bak
 *.swp
 *~.nib
 
-# 操作系统文件
+# --- 操作系统文件 ---
 .DS_Store
 Thumbs.db
 
-# Maven
-.mvn/
-mvnw
-mvnw.cmd
-
-# Gradle
-.gradle/
-gradle/
-gradlew
-gradlew.bat
-
-# 包文件
+# --- 打包文件 ---
 *.jar
 *.war
 *.ear
 *.zip
 *.tar.gz
 *.rar
+
+# --- Maven (注意：保留了 mvnw 包装器以便他人使用) ---
+.mvn/timing.properties
+# 如果你想忽略 Maven 包装器，取消下面几行的注释：
+# .mvn/wrapper/maven-wrapper.properties
+# mvnw
+# mvnw.cmd
+
+# --- Gradle (注意：保留了 gradlew 包装器) ---
+.gradle/
+# 如果你想忽略 Gradle 包装器，取消下面几行的注释：
+# gradle/
+# gradlew
+# gradlew.bat
