@@ -1,64 +1,28 @@
-# --- IDE 配置文件 (不需要提交) ---
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
 # IntelliJ IDEA
-.idea/
-*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
+.idea/sonarlint
 *.iws
-*.ipr
+*.iml
 out/
 
-# Eclipse
-.classpath
-.project
-.settings/
-.apt_generated
-.factorypath
-.springBeans
-bin/
-
-# VS Code
-.vscode/
-
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# --- 编译输出 (不需要提交) ---
-target/
-build/
-*.class
-
-# --- 日志和临时文件 ---
-*.log
-*.tmp
-*.bak
-*.swp
-*~.nib
-
-# --- 操作系统文件 ---
+# OS
 .DS_Store
 Thumbs.db
 
-# --- 打包文件 ---
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Logs
+*.log
 
-# --- Maven (注意：保留了 mvnw 包装器以便他人使用) ---
-.mvn/timing.properties
-# 如果你想忽略 Maven 包装器，取消下面几行的注释：
-# .mvn/wrapper/maven-wrapper.properties
-# mvnw
-# mvnw.cmd
-
-# --- Gradle (注意：保留了 gradlew 包装器) ---
-.gradle/
-# 如果你想忽略 Gradle 包装器，取消下面几行的注释：
-# gradle/
-# gradlew
-# gradlew.bat
